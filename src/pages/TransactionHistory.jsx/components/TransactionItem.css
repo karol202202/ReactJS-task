@@ -1,0 +1,24 @@
+.table {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.table thead ,tfoot{
+    font-weight: 700;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #56ea00ca;
+}
+
+td:not(:first-child) {
+    text-align: right;
+}
+
+.transaction {
+    margin-top: 16px;
+}
